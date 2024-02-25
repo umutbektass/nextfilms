@@ -20,7 +20,7 @@ function FeaturedMovie({ movie = {}, isCompact = true }) {
       </p>
       <div className={styles.actionButtons}>
         <Link className={styles.playButton} href={`/movie/${movie.id}`}>
-          Play
+          Play4
         </Link>
         <button className={styles.addButton}>
           <FaPlus />
